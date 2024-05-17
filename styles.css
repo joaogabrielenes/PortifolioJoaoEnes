@@ -8,6 +8,7 @@
     color: var(--cor2);
 }
 
+/* variaveris de cor */
 :root{
     --cor0: #FFFFFF;
     --cor1: #E4E4E4;
@@ -16,122 +17,9 @@
     --cor4: rgb(71, 71, 255);
 }
 
-a{
-    text-decoration: none;
-    
-}
-
-a::hover{
-    color: rgb(255, 0, 0);
-}
-
-ul{
-    list-style: none;
-}
-
-main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#textocentral{
-    font-size: 2em;
-}
-
-.iconeprincipal{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    transform: scale(5);
-    margin: 20px 25px 0 30px;
-}
-
-.iconeconversar{
-    border: none;
-    cursor: pointer;
-    height: 60px;
-    margin-left: 20px;
-    background-color: var(--cor3);
-    padding: 15px;
-    border-radius: 15px;
-    color: white;
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-i{
-    color: var(--cor3);
-}
-
-i:hover{
-    color: rgb(71, 71, 255);
-}
-
-a:hover{
-    color: rgb(71, 71, 255);
-}
-
-.iconeconversar:hover{
-    background-color: rgb(71, 71, 255);
-} 
-
-nav{
-    max-width: 100%;
-    margin: auto;
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: var(--cor0);
-    height: 20px;
-    width: 100%;
-    position: fixed;
-    z-index: 1000;
-}
-
-#teste01{
-    margin-left: 50px;
-}
-
-#teste02{
-    margin-right: 50px;
-}
-
-#logo{
-   font-size: 1.4em;
-}
-
-#inicio{
-    background-color: var(--cor1);
-    height: 100vh;
-}
-
-#sobre{
-    background-color: var(--cor0);
-    height: 100vh;
-}
-
-#projetos{
-    background-color: var(--cor1);
-    height: 100vh;
-}
-
-#contato{
-    background-color: var(--cor0);
-    height: 100vh;
-}
-
-#menu{
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-}
-
+/* Efeito Digitando */
 .wrapper {
     height: 100vh;
-
     display: grid;
     place-items: center;
   }
@@ -158,22 +46,182 @@ nav{
     }
   }
 
+/* Navbar */
+nav{
+    max-width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--cor0);
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+#teste01{
+    margin-left: 50px;
+}
+
+#teste02{
+    margin-right: 50px;
+}
+
+#logo{
+   font-size: 1.4em;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+/* Conteudo Principal */
+#maininicio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textocentral{
+    font-size: 2em;
+}
+
+.iconeprincipal{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transform: scale(5);
+    margin: 20px 25px 0 30px;
+    outline: 20px;
+}
+
+.iconeconversar{
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 20px;
+    background-color: var(--cor3);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    
+}
+
+i{
+    color: var(--cor3);
+}
+
+i:hover{
+    color: rgb(71, 71, 255);
+}
+
+a:hover{
+    color: rgb(71, 71, 255);
+}
+
+.iconeconversar:hover{
+    background-color: rgb(71, 71, 255);
+} 
+
+
+
+/* Pagina Inicio */
+#inicio{
+    background-color: var(--cor1);
+    height: 100vh;
+}
+
+/* Pagina sobre */
+#sobre{
+    background-color: var(--cor0);
+    height: 100vh;   
+}
+
+#mainsobre{
+   display: flex;
+   justify-content: center;
+   padding: 150px 0 0 0 ;
+}
+
+h3{
+    font-size: 2.2em;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    
+    width: 400px;
+    margin: 15px auto; 
+    border: 1px solid #000; 
+}
+
+p{
+    font-size: 1.7em;
+    line-height: 2; 
+    width: 1200px;
+    
+}
+
+.destaque{
+    color: blue;
+}
+
+#fotodeperfil{
+    width: 300px;
+    border-radius: 22px;
+}
+
+#conteudosobre{
+    display: inline-block;
+    
+}
+
+/* Pagina Projetos */
+#projetos{
+    background-color: var(--cor1);
+    height: 100vh;
+}
+/* Pagina Contato */
+#contato{
+    background-color: var(--cor0);
+    height: 100vh;
+}
+
+
+
+/* Barra de rolagem */
+
   ::-webkit-scrollbar {
-    width: 10px; /* largura da barra */
+    width: 10px; 
   }
   
-  /* Estilos do trilho */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; /* cor de fundo */
+    background: #f1f1f1; 
   }
   
-  /* Estilos do botão do indicador */
   ::-webkit-scrollbar-thumb {
-    background: #888; /* cor do indicador */
-    border-radius: 5px; /* borda do indicador */
+    background: #888; 
+    border-radius: 5px; 
   }
   
-  /* Estilos do botão do indicador quando houver hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; /* cor do indicador em hover */
+    background: #555; 
   }
