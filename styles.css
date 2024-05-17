@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-weight: regular;
+    color: var(--cor2);
+}
+
+:root{
+    --cor0: #FFFFFF;
+    --cor1: #E4E4E4;
+    --cor2: #222222;
+    --cor3: #616161;
+    --cor4: rgb(71, 71, 255);
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a::hover{
+    color: rgb(255, 0, 0);
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textocentral{
+    font-size: 2em;
+}
+
+.iconeprincipal{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transform: scale(5);
+    margin: 20px 25px 0 30px;
+}
+
+.iconeconversar{
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 20px;
+    background-color: var(--cor3);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+i{
+    color: var(--cor3);
+}
+
+i:hover{
+    color: rgb(71, 71, 255);
+}
+
+a:hover{
+    color: rgb(71, 71, 255);
+}
+
+.iconeconversar:hover{
+    background-color: rgb(71, 71, 255);
+} 
+
+nav{
+    max-width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--cor0);
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+#teste01{
+    margin-left: 50px;
+}
+
+#teste02{
+    margin-right: 50px;
+}
+
+#logo{
+   font-size: 1.4em;
+}
+
+#inicio{
+    background-color: var(--cor1);
+    height: 100vh;
+}
+
+#sobre{
+    background-color: var(--cor0);
+    height: 100vh;
+}
+
+#projetos{
+    background-color: var(--cor1);
+    height: 100vh;
+}
+
+#contato{
+    background-color: var(--cor0);
+    height: 100vh;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.wrapper {
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 23ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.3em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px; /* largura da barra */
+  }
+  
+  /* Estilos do trilho */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* cor de fundo */
+  }
+  
+  /* Estilos do botão do indicador */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* cor do indicador */
+    border-radius: 5px; /* borda do indicador */
+  }
+  
+  /* Estilos do botão do indicador quando houver hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* cor do indicador em hover */
+  }
