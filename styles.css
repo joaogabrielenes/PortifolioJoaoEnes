@@ -592,6 +592,7 @@ footer>p{
     #mainsobre{
         padding: 100px 0 0 0 ;
      }
+     
      .textosprincipais{
         font-size: 1.2em;
         line-height: 2; 
@@ -652,7 +653,7 @@ footer>p{
     #conteudocontato{
         padding: 25px 0 0 25px;
         height: 250px;
-        width: 400px;
+        width: 350px;
         margin: 0 auto;
     }
     #imagemsobre{
@@ -680,8 +681,6 @@ footer>p{
     #conteudocontato>p{
         font-size: 1.3em;
     }
-
-
     a{
         text-decoration: none;
         
@@ -708,7 +707,11 @@ footer>p{
         flex-direction: row;
         gap: 1em;
     }
-
+    hr{
+        width: 100px;
+        margin: 15px auto; 
+        border: 1px solid #000; 
+    }
 }
 
 
