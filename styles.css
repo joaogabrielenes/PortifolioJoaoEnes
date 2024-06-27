@@ -5,7 +5,7 @@
     margin: 0;
     font-family: Inter, sans-serif;
     font-weight: regular;
-    color: var(--cor2);
+    color: black;
 }
 
 /* variaveris de cor */
@@ -32,6 +32,7 @@
     border-right: 3px solid;
     font-family: monospace;
     font-size: 1.3em;
+    color: white;
   }
   
 
@@ -73,13 +74,13 @@ ul{
     list-style: none;
 }
 
-#teste01{
+/* #teste01{
     margin-left: 50px;
 }
 
 #teste02{
     margin-right: 50px;
-}
+} */
 
 #logo{
    font-size: 1.4em;
@@ -100,8 +101,16 @@ ul{
     transform: translate(-50%, -50%);
 }
 
+h1{
+    color: white;
+}
 #textocentral{
+    
     font-size: 2em;
+}
+
+.iconeprincipal>i{
+    color: white;
 }
 
 .iconeprincipal{
@@ -127,18 +136,16 @@ ul{
     
 }
 
-i{
-    color: var(--cor3);
-}
+
 
 i:hover{
-    color: rgb(71, 71, 255);
+    color: rgb(255, 70, 70);
     transform: scale(1.07);
-    transition: .6s;
+    transition: .3s;
 }
 
 a:hover{
-    color: rgb(71, 71, 255);
+    color: rgb(255, 70, 70);
 }
 
 .iconeconversar:hover{
@@ -151,7 +158,9 @@ a:hover{
 
 /* Pagina Inicio */
 #inicio{
-    background-color: var(--cor1);
+    background: rgba(0, 0, 0, 0.822) url(img/desk.png) ;
+    background-size: cover;
+    background-blend-mode: darken;
     height: 100vh;
 }
 
