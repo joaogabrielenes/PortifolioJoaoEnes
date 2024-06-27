@@ -1,0 +1,417 @@
+  /* @media screen and (min-width: 1530px){
+    #sumir{
+        display: none;
+    }
+  }
+
+@media screen and (min-width: 1150px) and (max-width: 1530px){
+
+    #sumir{
+        display: none;
+    }
+
+    #mainsobre{
+        padding: 100px 0 0 0 ;
+     }
+     .textosprincipais{
+         font-size: 1.3em;
+         line-height: 2; 
+         width: 650px;
+
+     }
+     #fotodeperfil{
+         width: 250px;
+         height: 250px;
+         border-radius: 30px;
+         box-shadow: 13px 14px 0 0 #D9D9D9;
+     }
+    .fotosprojeto{
+        width: 373px;
+        border-radius: 22px 22px 0 0;
+    }
+    .projetoCard{
+        background-color: white;
+        width: 373px;
+        height: 603px;
+        border-radius: 22px;
+        box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
+    }
+    .subtexto{
+        font-size: 20px;
+        padding: 2px;
+        margin: 0 auto;
+        width: 373px;
+    }
+    #iconesvisitar{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #conteudocontato{
+        height: 350px;
+        width: 800px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1204px){
+
+
+    .titulosdescricao{
+        padding: 10px;
+    }
+
+    .iconescards{
+        display: none;
+    }
+    
+    #projetos{
+        height: 138vh;
+    }
+
+    #mainsobre{
+        padding: 100px 0 0 0 ;
+     }
+     .textosprincipais{
+         font-size: 1.2em;
+         line-height: 2; 
+         width: 650px;
+     }
+
+     #todosprojetos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+     #fotodeperfil{
+         width: 0;
+         height: 250px;
+         border-radius: 30px;
+         box-shadow: 13px 14px 0 0 #D9D9D9;
+     }
+
+    .fotosprojeto{
+        width: 320px;
+        border-radius: 22px 22px 0 0;
+    }
+
+    .projetoCard{
+        background-color: white;
+        width: 320px;
+        height: 530px;
+        border-radius: 22px;
+        box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
+        margin: 30px;
+    }
+    .subtexto{
+        font-size: 20px;
+        padding: 2px;
+        margin: 0 auto;
+        width: 300px;
+    }
+    #iconesvisitar{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #conteudocontato{
+        padding: 30px;
+        height: 350px;
+        width: 800px;
+    }
+}
+@media screen and (min-width: 656px) and (max-width: 768px){
+    
+
+
+    .titulosdescricao{
+        padding: 10px;
+    }
+
+    .iconescards{
+        display: none;
+    }
+    
+    #projetos{
+        height: 138vh;
+        padding-bottom: 150px;
+    }
+
+    #mainsobre{
+        padding: 100px 0 0 0 ;
+     }
+     .textosprincipais{
+         font-size: 1.2em;
+         line-height: 2; 
+         width: 650px;
+         
+    
+     }
+
+     #todosprojetos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+
+     #fotodeperfil{
+         width: 0;
+         height: 250px;
+         border-radius: 30px;
+         box-shadow: 13px 14px 0 0 #D9D9D9;
+     }
+
+    .fotosprojeto{
+        width: 300px;
+        border-radius: 22px 22px 0 0;
+    }
+
+    .projetoCard{
+        background-color: white;
+        width: 300px;
+        height: 530px;
+        border-radius: 22px;
+        box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
+        margin: 25px;
+        
+    }
+    .subtexto{
+        font-size: 15px;
+        padding: 7px;
+        margin: 0 auto;
+        width: 300px;
+    }
+    #iconesvisitar{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #conteudocontato{
+        padding: 25px 0 0 25px;
+        height: 250px;
+        width: 400px;
+    }
+    #imagemsobre>img{
+        width: 250px;
+        height: 250px;
+    }
+    h6{
+        line-height: 1em;
+    }
+    .viewicon{
+        background-color: rgb(212, 212, 212);
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 655px){
+    
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #sumir{
+        display: none;
+    }
+
+    .typing-demo{
+        font-size: 0.6em;
+    }
+
+    .titulosdescricao{
+        padding: 10px;
+    }
+
+    #projetos{
+        height: 235vh;
+    }
+
+    #mainsobre{
+        padding: 100px 0 0 0 ;
+     }
+     
+     .textosprincipais{
+        font-size: 1em;
+        line-height: 2; 
+        width: 400px;
+    }
+
+    .iconeprincipal{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        transform: scale(4);
+        margin: 20px 25px 0 30px;
+        outline: 20px;
+    }
+
+
+     #todosprojetos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+     #fotodeperfil{
+         width: 0;
+         height: 250px;
+         border-radius: 30px;
+         box-shadow: 13px 14px 0 0 #D9D9D9;
+     }
+
+    .fotosprojeto{
+        width: 300px;
+        border-radius: 22px 22px 0 0;
+    }
+
+    .projetoCard{
+        background-color: white;
+        width: 300px;
+        height: 530px;
+        border-radius: 22px;
+        box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
+        margin: 25px;
+        
+    }
+    .subtexto{
+        font-size: 13px;
+        padding: 7px;
+        margin: 0 auto;
+        width: 250px;
+    }
+    #iconesvisitar{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #conteudocontato{
+        padding: 25px 0 0 25px;
+        height: 250px;
+        width: 350px;
+        margin: 0 auto;
+    }
+    #imagemsobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #imagemsobre>img{
+        width: 250px;
+        height: 250px;
+    }
+    h6{
+        line-height: 1em;
+    }
+    .viewicon{
+        background-color: rgb(212, 212, 212);
+        width: 125px;
+    }
+    #contatototal{
+        display: inline;
+        justify-content: center;
+        padding: 150px 0 0 0 ;
+        
+    }
+    #conteudocontato>p{
+        font-size: 1.3em;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    #teste01{
+        margin-left: 0px;
+    }
+    
+    #teste02{
+        margin-right: 0px;
+    }
+    
+    #logo{
+       font-size: 1em;
+    }
+    
+    #menu{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+    hr{
+        width: 100px;
+        margin: 15px auto; 
+        border: 1px solid #000; 
+    }
+}
+ */
+ <section class="headline" id="projetos">
+ <h3 class="titulosdescricao">Projetos</h3><hr>
+
+     <main id="todosprojetos">
+         <div class="projetoCard"><img src="img/home.jpg" class="fotosprojeto"> <p class="subtexto">MoneyMind projeto criado como material de estudo aplicado pelo curso Hora de Codar. Desenvolvido em HTML5, CSS3, JavaScript e ReactJs. O intuito do site é ser um painel para a administração de projetos financeiros, totalmente responsivel e intuitivo de utilizar, projetado totalmente em inglês.</p>
+         <div class="iconescards">
+             <i id="icons" class="fa-brands fa-html5"></i>
+             <i id="icons" class="fa-brands fa-css3"></i>
+             <i id="icons" class="fa-brands fa-js"></i>
+             <i id="icons" class="fa-brands fa-react"></i>
+         </div>
+         <div id="iconesvisitar">
+     
+             <a href="https://github.com/John-Enes/Money-Mind" target="_blank" ><button class="viewicon"><i id="icons" class="fa-brands fa-github"></i> Github</button></a>
+         </div>
+     </div>
+         <div class="projetoCard"><img src="img/cybermind.jpg" class="fotosprojeto"><p class="subtexto"> Uma landing page feita para praticar as habilidades em JavaScript, HTML5 e CSS3. Com o intuito de ser uma pagina de apresentação para um empresa de segurança digital
+         </p>
+             <div class="iconescards">
+                 <i id="icons" class="fa-brands fa-html5"></i>
+                 <i id="icons" class="fa-brands fa-css3"></i>
+                 <i id="icons" class="fa-brands fa-js"></i>
+             </div>
+             <div id="iconesvisitar">
+                 <a href="https://cybermind-rho.vercel.app/" target="_blank"><button class="viewicon"><i id="icons" class="fa-solid fa-eye"></i> Deploy</button></a>
+                 <a href="https://github.com/John-Enes/CyberMind" target="_blank"><button class="viewicon"><i id="icons" class="fa-brands fa-github"></i> Github</button></a>
+             </div>
+         </div>
+         <div class="projetoCard"><img src="img/todolist.jpg" class="fotosprojeto"><p class="subtexto">Lista de tarefas, criada para organização e planejamento de tarefas diárias de forma simples e prática, totalmente responsiva desenvolvida em HTML5, CSS3 e JavaScript.</p>
+             <div class="iconescards">
+                 <i id="icons" class="fa-brands fa-html5"></i>
+                 <i id="icons" class="fa-brands fa-css3"></i>
+                 <i id="icons" class="fa-brands fa-js"></i>
+             </div>
+             <div id="iconesvisitar">
+                 <a href="https://john-enes.github.io/listaDeTarefas/" target="_blank"><button class="viewicon"><i id="icons" class="fa-solid fa-eye"></i> Deploy</button></a>
+                 <a href="https://github.com/John-Enes/listaDeTarefas" target="_blank"><button class="viewicon"><i id="icons" class="fa-brands fa-github"></i> Github</button></a>
+             </div>
+ 
+     </div>
+                     <div id="sumir" class="projetoCard"><img src="img/todolist.jpg" class="fotosprojeto"><p class="subtexto">MoneyMind projeto criado como material de estudo aplicado pelo curso Hora de Codar. Desenvolvido em HTML5, CSS3, JavaScript e ReactJs. O intuito do site é ser um painel para a administração de projetos financeiros, totalmente responsivel e intuitivo de utilizar, projetado totalmente em inglês.</p>
+             <div class="iconescards">
+                 <i id="icons" class="fa-brands fa-html5"></i>
+                 <i id="icons" class="fa-brands fa-css3"></i>
+                 <i id="icons" class="fa-brands fa-js"></i>
+             </div>
+             <div id="iconesvisitar">
+                 <a href="https://john-enes.github.io/listaDeTarefas/" target="_blank"><button class="viewicon"><i id="icons" class="fa-solid fa-eye"></i> Deploy</button></a>
+                 <a href="https://github.com/John-Enes/listaDeTarefas" target="_blank"><button class="viewicon"><i id="icons" class="fa-brands fa-github"></i> Github</button></a>
+             </div>
+     
+     
+     </div>
+ </main>
+</section>

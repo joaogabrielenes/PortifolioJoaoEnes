@@ -149,7 +149,7 @@ a:hover{
 }
 
 .iconeconversar:hover{
-    background-color: rgb(71, 71, 255);
+    background-color: rgb(255, 70, 70);
     transform: scale(1.07);
     transition: .6s;
 } 
@@ -196,7 +196,7 @@ hr{
 }
 
 .destaque{
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
 #fotodeperfil{
@@ -361,366 +361,29 @@ footer>p{
     background: #555; 
   }
 
-  @media screen and (min-width: 1530px){
-    #sumir{
-        display: none;
-    }
-  }
 
-@media screen and (min-width: 1150px) and (max-width: 1530px){
 
-    #sumir{
-        display: none;
-    }
-
-    #mainsobre{
-        padding: 100px 0 0 0 ;
-     }
-     .textosprincipais{
-         font-size: 1.3em;
-         line-height: 2; 
-         width: 650px;
-
-     }
-     #fotodeperfil{
-         width: 250px;
-         height: 250px;
-         border-radius: 30px;
-         box-shadow: 13px 14px 0 0 #D9D9D9;
-     }
-    .fotosprojeto{
-        width: 373px;
-        border-radius: 22px 22px 0 0;
-    }
-    .projetoCard{
-        background-color: white;
-        width: 373px;
-        height: 603px;
-        border-radius: 22px;
-        box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
-    }
-    .subtexto{
-        font-size: 20px;
-        padding: 2px;
-        margin: 0 auto;
-        width: 373px;
-    }
-    #iconesvisitar{
-        padding-top: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    #conteudocontato{
-        height: 350px;
-        width: 800px;
-    }
+#containerprojetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    height: 100%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1204px){
-
-
-    .titulosdescricao{
-        padding: 10px;
-    }
-
-    .iconescards{
-        display: none;
-    }
-    
-    #projetos{
-        height: 138vh;
-    }
-
-    #mainsobre{
-        padding: 100px 0 0 0 ;
-     }
-     .textosprincipais{
-         font-size: 1.2em;
-         line-height: 2; 
-         width: 650px;
-     }
-
-     #todosprojetos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-     #fotodeperfil{
-         width: 0;
-         height: 250px;
-         border-radius: 30px;
-         box-shadow: 13px 14px 0 0 #D9D9D9;
-     }
-
-    .fotosprojeto{
-        width: 320px;
-        border-radius: 22px 22px 0 0;
-    }
-
-    .projetoCard{
-        background-color: white;
-        width: 320px;
-        height: 530px;
-        border-radius: 22px;
-        box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
-        margin: 30px;
-    }
-    .subtexto{
-        font-size: 20px;
-        padding: 2px;
-        margin: 0 auto;
-        width: 300px;
-    }
-    #iconesvisitar{
-        padding-top: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    #conteudocontato{
-        padding: 30px;
-        height: 350px;
-        width: 800px;
-    }
-}
-@media screen and (min-width: 656px) and (max-width: 768px){
-    
-
-
-    .titulosdescricao{
-        padding: 10px;
-    }
-
-    .iconescards{
-        display: none;
-    }
-    
-    #projetos{
-        height: 138vh;
-        padding-bottom: 150px;
-    }
-
-    #mainsobre{
-        padding: 100px 0 0 0 ;
-     }
-     .textosprincipais{
-         font-size: 1.2em;
-         line-height: 2; 
-         width: 650px;
-         
-    
-     }
-
-     #todosprojetos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-       
-    }
-
-     #fotodeperfil{
-         width: 0;
-         height: 250px;
-         border-radius: 30px;
-         box-shadow: 13px 14px 0 0 #D9D9D9;
-     }
-
-    .fotosprojeto{
-        width: 300px;
-        border-radius: 22px 22px 0 0;
-    }
-
-    .projetoCard{
-        background-color: white;
-        width: 300px;
-        height: 530px;
-        border-radius: 22px;
-        box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
-        margin: 25px;
-        
-    }
-    .subtexto{
-        font-size: 15px;
-        padding: 7px;
-        margin: 0 auto;
-        width: 300px;
-    }
-    #iconesvisitar{
-        padding-top: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    #conteudocontato{
-        padding: 25px 0 0 25px;
-        height: 250px;
-        width: 400px;
-    }
-    #imagemsobre>img{
-        width: 250px;
-        height: 250px;
-    }
-    h6{
-        line-height: 1em;
-    }
-    .viewicon{
-        background-color: rgb(212, 212, 212);
-        width: 125px;
-    }
+#projects{
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap: 30px;
 }
 
-@media screen and (max-width: 655px){
-    
-
-    nav{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #logo{
-        display: none;
-    }
-
-    #sumir{
-        display: none;
-    }
-
-    .typing-demo{
-        font-size: 0.6em;
-    }
-
-    .titulosdescricao{
-        padding: 10px;
-    }
-
-    #projetos{
-        height: 235vh;
-    }
-
-    #mainsobre{
-        padding: 100px 0 0 0 ;
-     }
-     
-     .textosprincipais{
-        font-size: 1em;
-        line-height: 2; 
-        width: 400px;
-    }
-
-    .iconeprincipal{
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        transform: scale(4);
-        margin: 20px 25px 0 30px;
-        outline: 20px;
-    }
-
-
-     #todosprojetos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-     #fotodeperfil{
-         width: 0;
-         height: 250px;
-         border-radius: 30px;
-         box-shadow: 13px 14px 0 0 #D9D9D9;
-     }
-
-    .fotosprojeto{
-        width: 300px;
-        border-radius: 22px 22px 0 0;
-    }
-
-    .projetoCard{
-        background-color: white;
-        width: 300px;
-        height: 530px;
-        border-radius: 22px;
-        box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
-        margin: 25px;
-        
-    }
-    .subtexto{
-        font-size: 13px;
-        padding: 7px;
-        margin: 0 auto;
-        width: 250px;
-    }
-    #iconesvisitar{
-        padding-top: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    #conteudocontato{
-        padding: 25px 0 0 25px;
-        height: 250px;
-        width: 350px;
-        margin: 0 auto;
-    }
-    #imagemsobre{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #imagemsobre>img{
-        width: 250px;
-        height: 250px;
-    }
-    h6{
-        line-height: 1em;
-    }
-    .viewicon{
-        background-color: rgb(212, 212, 212);
-        width: 125px;
-    }
-    #contatototal{
-        display: inline;
-        justify-content: center;
-        padding: 150px 0 0 0 ;
-        
-    }
-    #conteudocontato>p{
-        font-size: 1.3em;
-    }
-    a{
-        text-decoration: none;
-        
-    }
-    
-    ul{
-        list-style: none;
-    }
-    
-    #teste01{
-        margin-left: 0px;
-    }
-    
-    #teste02{
-        margin-right: 0px;
-    }
-    
-    #logo{
-       font-size: 1em;
-    }
-    
-    #menu{
-        display: flex;
-        flex-direction: row;
-        gap: 1em;
-    }
-    hr{
-        width: 100px;
-        margin: 15px auto; 
-        border: 1px solid #000; 
-    }
+.projectbox{
+    border-radius: 20px;
+    background-color: var(--cor0);
+ 
 }
 
 
