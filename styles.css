@@ -490,6 +490,7 @@ footer>p{
     
     #projetos{
         height: 138vh;
+        padding-bottom: 150px;
     }
 
     #mainsobre{
@@ -507,6 +508,7 @@ footer>p{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+       
     }
 
      #fotodeperfil{
@@ -597,8 +599,6 @@ footer>p{
         font-size: 1em;
         line-height: 2; 
         width: 400px;
-    
-   
     }
 
     .iconeprincipal{
