@@ -214,7 +214,7 @@ hr{
 /* Pagina Projetos */
 #projetos{
     background-color: var(--cor1);
-    height: 100vh;
+    height: 95vh;
 
 }
 
@@ -387,3 +387,26 @@ footer>p{
     border-radius: 10px 10px 0 0;
 }
 
+
+
+
+.carousel{
+        height: 500px;
+        width: 500px;
+    }
+
+.carouselcard{
+    background-color: var(--cor0);
+    height: 500px;
+    width: 500px;
+}
+.carouselcard2{
+    background-color: var(--cor2);
+    height: 500px;
+    width: 500px;
+}
+
+.slick-prev,
+.slick-next{
+    color: rgb(255, 0, 0);
+}
