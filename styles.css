@@ -15,6 +15,7 @@
     --cor2: #222222;
     --cor3: #616161;
     --cor4: rgb(71, 71, 255);
+    --cor5: #00FF7F;
 }
 
 /* Efeito Digitando */
@@ -139,17 +140,18 @@ h1{
 
 
 i:hover{
-    color: rgb(255, 70, 70);
+    color: 	var(--cor5);
     transform: scale(1.07);
     transition: .3s;
 }
 
 a:hover{
-    color: rgb(255, 70, 70);
+    color: #00FA9A;
+    transition: .3s;
 }
 
 .iconeconversar:hover{
-    background-color: rgb(255, 70, 70);
+    background-color: var(--cor5);
     transform: scale(1.07);
     transition: .6s;
 } 
@@ -196,9 +198,7 @@ hr{
     width: 1200px;
 }
 
-.destaque{
-    color: rgb(255, 0, 0);
-}
+
 
 #fotodeperfil{
     width: 300px;
