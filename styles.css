@@ -15,9 +15,14 @@
     --cor2: #222222;
     --cor3: #616161;
     --cor4: rgb(71, 71, 255);
-    --cor5: #00FF7F;
+    --cor5: #9900ff;
+    --cor6: #9900ff
 }
 
+span{
+    color: var(--cor5);
+    font-weight: bold;
+}
 /* Efeito Digitando */
 .wrapper {
     height: 100vh;
@@ -70,6 +75,7 @@ a{
     text-decoration: none;
     
 }
+
 
 ul{
     list-style: none;
@@ -146,8 +152,9 @@ i:hover{
 }
 
 a:hover{
-    color: #00FA9A;
+    color: var(--cor6);
     transition: .3s;
+    font-size: 1.15em;
 }
 
 .iconeconversar:hover{
@@ -169,14 +176,7 @@ a:hover{
 /* Pagina sobre */
 #sobre{
     background-color: var(--cor0);
-    height: 100vh;   
-}
-
-#mainsobre{
-   display: flex;
-   justify-content: center;
-   padding: 150px 0 0 0 ;
-   
+    height: 90vh;   
 }
 
 h3{
@@ -192,98 +192,73 @@ hr{
     border: 1px solid #000; 
 }
 
-.textosprincipais{
-    font-size: 1.7em;
-    line-height: 2; 
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#mainsobre{
+    background-color: var(--cor1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
     width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
 }
 
-
-
-#fotodeperfil{
-    width: 300px;
-    border-radius: 30px;
-    box-shadow: 13px 14px 0 0 #D9D9D9;
+#mainsobre>div>img{
+    margin: 20px;
+    height: 455px;
+    border-radius: 4px;
 }
 
-#conteudosobre{
-    display: inline-block;
+#mainsobre>div>p{
+    padding: 50px;
+    font-size: 1.3em;
+}
+
+#iconessobre{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
     
 }
 
 /* Pagina Projetos */
 #projetos{
     background-color: var(--cor1);
-    height: 95vh;
-
+    height: 100vh;
 }
 
-#todosprojetos{
-    display: flex;
-    flex: row;
-    justify-content: space-around;
+#projectsection>div{
+        width: 1200px;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5em;
+        
 }
 
-.fotosprojeto{
-    width: 465px;
-    border-radius: 22px 22px 0 0;
+.cards{
+    background-color: var(--cor0);
+    width: 365px;
+    height: 230px;
+    padding: 8px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.377);
+    
 }
 
-.projetoCard{
-    background-color: white;
-    width: 465px;
-    height: 673px;
-    border-radius: 22px;
-    box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.192);
+.cards>span{
+    font-size: 1.3em;
 }
-
-.projetoCard:hover{
-    transform: scale(1.07);
-    transition: .6s;
-}
-
-.subtexto{
-    font-size: 20px;
-    padding: 10px 0 0 0;
-    margin: 0 auto;
-    width: 400px;
-}
-
-#icons{
-    font-size: 40px; 
-}
-
-.iconescards{
-    display: flex;
-    justify-content: center;
-    gap: 1.5em;
-    padding: 10px 0 0 0;
-}
-
-#iconesvisitar{
-    padding-top: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.viewicon{
-    background-color: rgb(212, 212, 212);
-    width: 150px;
-    font-size: 20px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 5px;
-    border-radius: 22px;
-    border: none;
-}
-
-.viewicon:hover{
-    transform: scale(1.07);
-}
-
 
 /* Pagina Contato */
 #contato{
