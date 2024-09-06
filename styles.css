@@ -382,4 +382,82 @@ footer>p{
 }
 
 
-  
+@media screen and (max-width: 1200px) {
+ 
+        #mainsobre{
+            background-color: var(--cor1);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.377);
+            border-radius: 10px;
+            width: 700px;
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #mainsobre>div>img{display: none;  }
+    
+        #projetos{
+            background-color: var(--cor1);
+            height: 130vh;
+        }
+
+        #projectsection>div{
+            width: 1200px;
+            height: 600px;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            align-items: stretch;
+            gap: 1.5em;
+            
+    }
+    
+
+    .cards{
+        background-color: var(--cor0);
+        width: 365px;
+        height: 230px;
+        padding: 8px;
+        font-size: 1.1em;
+        border-radius: 10px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.377);
+        
+    }
+    
+    .cards>span{
+        font-size: 1.3em;
+    }
+    
+
+
+    #conteudocontato>div{
+        font-size: 1.1em;
+        margin: 0 auto;
+        width: 798px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #projetos{
+        background-color: var(--cor1);
+        height: 200vh;
+    }
+
+    .cards{
+        width: auto;
+        height: 230px;
+    }
+
+        #conteudocontato>div{
+        font-size: 1.1em;
+        margin: 0 auto;
+        width: 798px;
+    }
+
+    #conteudocontato>div{
+        font-size: 1.1em;
+        margin: 0 auto;
+        width: 600px;
+    }
+}
